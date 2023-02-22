@@ -1,0 +1,82 @@
+body {
+  font-family: sans-serif;
+  margin: 0 50px;
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #cdd5df;
+  
+}
+.svg{
+display: block;
+margin-left:auto;
+margin-right: auto;
+opacity: 0.5;
+}
+h1{
+  font-family: cursive;
+  color: rgb(29, 81, 102);
+  font-size: 30px; 
+}
+.wrapper{
+  font-weight: bolder;
+  padding:15px;
+  text-align: center;
+  
+}
+.task{
+  border-radius: 30px;
+width: 200px;
+  padding: 15px;
+ text-align: center;
+cursor:pointer;
+}
+.desc{
+  border-radius: 30px;
+  padding: 15px;
+ text-align: center;
+cursor:pointer;
+}
+#dateInput{
+  border-radius: 30px;
+  padding: 15px;
+cursor:pointer;
+}
+#addBtn{
+  border-radius: 20%;
+  padding: 15px;
+  border: rgb(32, 42, 87);
+  background-color: rgb(163, 170, 175);
+  cursor: pointer;
+}
+#sortBtn{
+  border-radius: 20%;
+  padding: 15px;
+  border: rgb(32, 42, 87);
+  background-color: rgb(163, 170, 175);
+  cursor: pointer;
+}
+.todotable{
+  border: 3px solid rgb(32, 42, 87);
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+.strike {
+    text-decoration: line-through;
+  
+  }
+  
+  td{
+    border: 1px solid #ddd;
+    padding: 5px;
+
+  }
+
+.add-task{
+ text-decoration: solid;
+ text-align:center;
+}
